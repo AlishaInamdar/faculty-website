@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: #111;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00d4ff;
+}
+
+/* Hero Banner */
+.hero-image {
+  background: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Contact Info Grid */
+.contact-info-grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 100px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.info-block h3 {
+  font-size: 16px;
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+.info-block p {
+  color: #ddd;
+  font-size: 14px;
+}
+
+/* Message Section */
+.contact-message {
+  text-align: center;
+  padding: 30px 200px;
+  background-color: #141414;
+  font-size: 15px;
+  color: #bbb;
+}
+
+/* Contact Form */
+.form-section {
+  background-color: #1c1c1c;
+  padding: 50px 200px;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 24px;
+  color: #00d4ff;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 60%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #00d4ff;
+  background-color: #111;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background-color: #00d4ff;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #00a4c2;
+}
+
+
+
+
+.contact-frame {
+  margin: 20px 120px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.1);
+  overflow: hidden;
+}
+
+/* Keep previous styles */

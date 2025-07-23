@@ -1,0 +1,103 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://media.istockphoto.com/id/1370687004/photo/art-gallery-showing-a-digital-installation-with-a-bright-display-and-glowing-blocks.jpg?s=612x612&w=0&k=20&c=iVBwEvLieek6c3tPWRes_0mt2V5ciOdbmdXDuaq8cOg=') no-repeat center center/cover;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color:white;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00d4ff;
+}
+
+/* Gallery Section */
+.gallery-section {
+  min-height: 100vh;
+  padding: 80px 60px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.gallery-section h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #00d4ff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #00d4ff;
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+object-position: top;
+  object-fit: cover;
+  
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+.img4-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.gallery-item img:hover {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+}
