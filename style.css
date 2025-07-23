@@ -91,3 +91,53 @@ nav a:hover {
     margin-top: 20px;
   }
 }
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+    background-position: center;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .main {
+    padding: 30px 20px;
+  }
+
+  .left h1 {
+    font-size: 28px;
+  }
+
+  .left h4 {
+    font-size: 18px;
+  }
+
+  .left p {
+    font-size: 14px;
+  }
+
+  .right img {
+    width: 180px;
+    height: 180px;
+  }
+}
+

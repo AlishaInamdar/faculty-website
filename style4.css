@@ -180,3 +180,68 @@ nav a.active {
   color: #ddd;
   font-size: 14px;
 }
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .projects-section {
+    padding: 40px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .split-layout {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0;
+  }
+
+  .projects-container,
+  .papers-container {
+    padding: 10px;
+  }
+
+  .projects-container h1,
+  .papers-container h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .projects-container p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .project-card,
+  .paper-card {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .project-card h3,
+  .paper-card h3 {
+    font-size: 16px;
+  }
+
+  .project-card p,
+  .paper-card p {
+    font-size: 13px;
+  }
+}

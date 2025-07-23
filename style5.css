@@ -149,3 +149,66 @@ button:hover {
 }
 
 /* Keep previous styles */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .hero-text {
+    left: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  .contact-info-grid {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .contact-message {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .contact-frame {
+    margin: 20px;
+  }
+
+  .form-section {
+    padding: 30px 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
